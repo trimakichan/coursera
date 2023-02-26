@@ -1,0 +1,33 @@
+/* div.collapse {
+    color: white;
+} */
+.nav-header {
+    background-color: #d7e3fc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.chicken {
+    background-color: #d88c9a;
+}
+
+.beef {
+    background-color: #f2d0a9;
+}
+
+.sushi {
+    background-color: #99c1b9;
+}
+
+.chicken, .beef, .sushi {
+    border: 2px solid #819595;
+}
+.roundcorner {
+    border-radius: 10px;
+}
+
+@media (min-width: 767px) {
+    a.nav-link, button.navbar-toggler {
+        visibility: hidden;
+}
+}
+
